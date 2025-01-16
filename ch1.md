@@ -191,3 +191,9 @@ echo $msg
 * Addition for 3 numbers.
 * Multiplication for first 2 numbers.
 * Store output in a `sum.txt` file.
+
+> What will happen if we execute script multiple times as per the last example ?
+> `Obviously it will overwrite the previous output. You can argue that we can use` *>>* `redirector to update the same output file but what if we want to store output in a completely new file every time we run the script`
+
+### Extend above script to perform :
+* The script should have a `timestamp` variable which stores output in `DD-MM-YY-HH-MM-SS` *Day-Monty-Year-Hour-Minutes-Seconds* format, so that we can use that `timestamp` variable to prefix the output file. This way everytime we run the script, it will create a new output file with a *timestamp* e.g `06-01-2024-15-20-18-sum.txt`
